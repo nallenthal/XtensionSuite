@@ -1,0 +1,12 @@
+D:\Repositories\XtensionSuite\Common\bin\Debug\Common.xml
+D:\Repositories\XtensionSuite\Common\bin\Debug\Common.dll
+D:\Repositories\XtensionSuite\Common\bin\Debug\Common.pdb
+D:\Repositories\XtensionSuite\Common\obj\x86\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Repositories\XtensionSuite\Common\obj\x86\Debug\Common.dll
+D:\Repositories\XtensionSuite\Common\obj\x86\Debug\Common.pdb
+D:\Repositories\XtensionSuite\XtensionSuite\Source\XtensionSuite\Common\bin\Debug\Common.xml
+D:\Repositories\XtensionSuite\XtensionSuite\Source\XtensionSuite\Common\bin\Debug\Common.dll
+D:\Repositories\XtensionSuite\XtensionSuite\Source\XtensionSuite\Common\bin\Debug\Common.pdb
+D:\Repositories\XtensionSuite\XtensionSuite\Source\XtensionSuite\Common\obj\x86\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Repositories\XtensionSuite\XtensionSuite\Source\XtensionSuite\Common\obj\x86\Debug\Common.dll
+D:\Repositories\XtensionSuite\XtensionSuite\Source\XtensionSuite\Common\obj\x86\Debug\Common.pdb
