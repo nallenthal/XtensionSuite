@@ -1,0 +1,6 @@
+D:\Nallenthal\SWRepositories\XtensionSuite\XtensionSuiteTests\bin\Debug\XtensionSuiteTests.dll
+D:\Nallenthal\SWRepositories\XtensionSuite\XtensionSuiteTests\bin\Debug\XtensionSuiteTests.pdb
+D:\Nallenthal\SWRepositories\XtensionSuite\XtensionSuiteTests\bin\Debug\NUnit.Framework.dll
+D:\Nallenthal\SWRepositories\XtensionSuite\XtensionSuiteTests\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Nallenthal\SWRepositories\XtensionSuite\XtensionSuiteTests\obj\x86\Debug\XtensionSuiteTests.dll
+D:\Nallenthal\SWRepositories\XtensionSuite\XtensionSuiteTests\obj\x86\Debug\XtensionSuiteTests.pdb

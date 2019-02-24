@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common</name>
+    </assembly>
+    <members>
+        <member name="T:Nallenthal.Common.XtensionSuite.Constants">
+            <summary>
+            Common constants used across XtensionSuite
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.JANUARY">
+            <summary>
+            Constant that represents January month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.FEBRUARY">
+            <summary>
+            Constant that represents February month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.MARCH">
+            <summary>
+            Constant that represents March month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.APRIL">
+            <summary>
+            Constant that represents April month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.MAY">
+            <summary>
+            Constant that represents May month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.JUNE">
+            <summary>
+            Constant that represents June month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.JULY">
+            <summary>
+            Constant that represents July month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.AUGUST">
+            <summary>
+            Constant that represents August month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.SEPTEMBER">
+            <summary>
+            Constant that represents September month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.OCTOBER">
+            <summary>
+            Constant that represents October month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.NOVEMBER">
+            <summary>
+            Constant that represents November month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.DECEMBER">
+            <summary>
+            Constant that represents December month
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.DAYS_PER_WEEK">
+            <summary>
+            Constant that represents number of days in a week
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.DAYS_PER_FORTNIGHT">
+            <summary>
+            Constant that represents number of days in a fortnight
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.WEEKS_PER_FORTNIGHT">
+            <summary>
+            Constant that represents number of weeks in a fortnight
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.YEARS_PER_DECADE">
+            <summary>
+            Constant that represents number of years in a decade
+            </summary>
+        </member>
+        <member name="F:Nallenthal.Common.XtensionSuite.Constants.YEARS_PER_CENTURY">
+            <summary>
+            Constant that represents number of years in a century
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.ValueMismatchException`1">
+            <summary>
+            A generic custom exception class that is used to indicate the consumer that the expected value is not matching with the actual value.
+            Will be useful in writing unit tests and validations
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.ValueMismatchException`1.#ctor(`0,`0)">
+            <summary>
+            Parameterized constructor for the class. Instantiates the members
+            </summary>
+            <param name="expected">The ideal value</param>
+            <param name="actual">The actual value</param>
+        </member>
+        <member name="P:Nallenthal.Common.ValueMismatchException`1.Message">
+            <summary>
+            Overridden property from the base class
+            </summary>
+        </member>
+    </members>
+</doc>

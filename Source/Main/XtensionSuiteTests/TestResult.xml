@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Nallenthal\SWRepositories\Online\XtensionSuite\XtensionSuiteTests\XtensionSuite.Tests.nunit" total="19" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-11-03" time="06:47:53">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE" machine-name="GANESHPERIASAMY" user="Ganesh Periasamy" user-domain="GaneshPeriasamy" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="D:\Nallenthal\SWRepositories\Online\XtensionSuite\XtensionSuiteTests\XtensionSuite.Tests.nunit" executed="True" result="Success" success="True" time="0.474" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\Nallenthal\SWRepositories\Online\XtensionSuite\XtensionSuiteTests\bin\Debug\XtensionSuite.Tests.dll" executed="True" result="Success" success="True" time="0.467" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Nallenthal" executed="True" result="Success" success="True" time="0.467" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Common" executed="True" result="Success" success="True" time="0.467" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="XtensionSuiteTests" executed="True" result="Success" success="True" time="0.467" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="DateTimeXtensionsTests" executed="True" result="Success" success="True" time="0.464" asserts="0">
+                        <results>
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_for_common_methods_based_on_age" executed="True" result="Success" success="True" time="0.268" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_method_for_common_string_representations" executed="True" result="Success" success="True" time="0.015" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_method_for_workingdays_and_holidays" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_method_for_yesterday_today_and_tomorrow" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_methods_based_on_days" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_methods_for_get_next_xxx" executed="True" result="Success" success="True" time="0.075" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_methods_for_get_previous_xxx" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Test_methods_for_months" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_Add_a_xxx" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_Get_xxx_since" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_GetFirstxxxOfTheMonth" executed="True" result="Success" success="True" time="0.009" asserts="23" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_GetFirstxxxOfTheYear" executed="True" result="Success" success="True" time="0.003" asserts="23" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_GetLastxxxOfTheMonth" executed="True" result="Success" success="True" time="0.002" asserts="184" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_GetLastxxxOfTheYear" executed="True" result="Success" success="True" time="0.002" asserts="191" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_methods_older_than_xxx" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_methods_ToxxyyzzSep" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_methods_younger_than_xxx" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_Subtract_a_xxx" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests.Tests_for_subtract_methods" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

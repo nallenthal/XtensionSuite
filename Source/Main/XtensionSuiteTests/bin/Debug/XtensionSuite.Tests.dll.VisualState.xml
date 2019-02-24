@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1022]D:\Nallenthal\SWRepositories\Online\XtensionSuite\XtensionSuiteTests\bin\Debug\XtensionSuite.Tests.dll</TopNode>
+  <SelectedNode>[0-1021]Nallenthal.Common.XtensionSuiteTests.BoolXtensionsTests.Test_Methods_for_Bool</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1022]D:\Nallenthal\SWRepositories\Online\XtensionSuite\XtensionSuiteTests\bin\Debug\XtensionSuite.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1023]Nallenthal" Expanded="true" />
+    <Node UniqueName="[0-1024]Nallenthal.Common" Expanded="true" />
+    <Node UniqueName="[0-1025]Nallenthal.Common.XtensionSuiteTests" Expanded="true" />
+    <Node UniqueName="[0-1020]Nallenthal.Common.XtensionSuiteTests.BoolXtensionsTests" Expanded="true" />
+    <Node UniqueName="[0-1000]Nallenthal.Common.XtensionSuiteTests.DateTimeXtensionsTests" Expanded="true" />
+  </Nodes>
+</VisualState>

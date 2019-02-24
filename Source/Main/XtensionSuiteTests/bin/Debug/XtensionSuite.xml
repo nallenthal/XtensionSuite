@@ -1,0 +1,2018 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XtensionSuite</name>
+    </assembly>
+    <members>
+        <member name="T:Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions.BoolBDDXtensions">
+            <summary>
+            This class contains set of extension methods to ascertain boolean values.
+            These can be used for unit testing and general validations.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions.BoolBDDXtensions.ShouldBeFalse(System.Boolean)">
+            <summary>
+            Ensures that the given boolean value is False.
+            Checks the given boolean value and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/>, if the item is not false.
+            </summary>
+            <param name="item">The given value.</param>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions.BoolBDDXtensions.ShouldBeTrue(System.Boolean)">
+            <summary>
+            Ensures that the given boolean value is True
+            Checks the given boolean value and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the item is not true. 
+            </summary>
+            <param name="item">The given value.</param>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains BDD style extension methods for <see cref ="T:System.Boolean"></see>
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NumericBDDXtensions">
+            <summary>
+            This Class contains set of extension methods to ascertain values of objects that implement <see cref="T:System.IComparable"/>.
+            These can be used for comparing numbers in unit tests and during validations.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NumericBDDXtensions.ShouldBeGreaterThan``1(``0,``0)">
+            <summary>
+            Ensures that the firstItem is greater than the secondItem.
+            Checks the two given values and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the firstItem is NOT greater than the secondItem.
+            </summary>
+            <param name="firstItem">The given first item.</param>
+            <param name="secondItem">The second item to be compared.</param>
+            <typeparam name="T">An instance of IComparable.</typeparam>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NumericBDDXtensions.ShouldBeLessThan``1(``0,``0)">
+            <summary>
+            Ensures that the firstItem is lesser than the secondItem 
+            Checks the two given values and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the firsItem is NOT lesser than the secondItem.
+            </summary>
+            <param name="firstItem">The given first item.</param>
+            <param name="secondItem">The second item to be compared.</param>
+            <typeparam name="T">An instance IComparable.</typeparam>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NumericBDDXtensions.ShouldBeEqualTo``1(``0,``0)">
+            <summary>
+            Ensures that the firstItem is equal to the secondItem
+            Checks the two given values and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the firstItem is NOT equal to secondItem.              
+            </summary>
+            <param name="firstItem">The given first item.</param>
+            <param name="secondItem">The second item to be compared.</param>
+            <typeparam name="T">An instance of IComparable.</typeparam>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NumericBDDXtensions.ShouldNOTBeGreaterThan``1(``0,``0)">
+            <summary>
+            Ensures that the firstItem is NOT greater than the secondItem
+            Checks the two given values and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the firstItem is greater than the secondItem.
+            </summary>
+            <param name="firstItem">The given first item.</param>
+            <param name="secondItem">The second item to be compared.</param>
+            <typeparam name="T">An instance of IComparable.</typeparam>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NumericBDDXtensions.ShouldNOTBeLessThan``1(``0,``0)">
+            <summary>
+            Ensures that the first item is NOT lesser than the second item
+            Checks the two given values and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the firsItem is lesser than the secondItem.
+            </summary>
+            <param name="firstItem">The given first item.</param>
+            <param name="secondItem">The second item to be compared.</param>
+            <typeparam name="T">An instance of IComparable.</typeparam>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NumericBDDXtensions.ShouldNOTBeEqualTo``1(``0,``0)">
+            <summary>
+            Ensures that the first item is NOT equal to the second item
+            Checks the two given values and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the firstItem is equal to secondItem.              
+            </summary>
+            <param name="firstItem">The given first item.</param>
+            <param name="secondItem">The second item to be compared.</param>
+            <typeparam name="T">An instance of IComparable.</typeparam>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains BDD style extension methods for numbers.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.BDDExtensions.StringBDDXtensions.StringBDDXtensions">
+            <summary>
+            This class contains set of extension methods to ascertain value of a given <see cref="T:System.String"/>
+            These can be used for unit tests and in general validations.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BDDExtensions.StringBDDXtensions.StringBDDXtensions.ShouldBeEqualTo(System.String,System.String)">
+            <summary>
+            Ensures that the first string is equal to the second string.
+            Checks the two given strings and throws a <see cref="T:Nallenthal.Common.ValueMismatchException`1"/> if the first string is NOT equal to the second string.
+            </summary>
+            <param name="firstString">The given first string.</param>
+            <param name="secondString">The second string to be compared.</param>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.BDDExtensions.StringBDDXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains BDD style extension methods for <see cref="T:System.String"/>
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions">
+            <summary>
+            This class contains set of extension methods for the <see cref="T:System.Boolean"/> type.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.IsTrue(System.Boolean)">
+            <summary>
+            Checks whether the given boolean item is true.
+            </summary>
+            <param name="item">Item to be checked.</param>
+            <returns>True if the value is true, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.IsFalse(System.Boolean)">
+            <summary>
+            Checks whether the given boolean item is false.
+            </summary>
+            <param name="item">Item to be checked.</param>
+            <returns>True if the value is false, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.IsNotTrue(System.Boolean)">
+            <summary>
+            Checks whether the given boolean item is NOT true.
+            </summary>
+            <param name="item">Item to be checked.</param>
+            <returns>True if the item is false, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.IsNotFalse(System.Boolean)">
+            <summary>
+            Checks whether the given boolean item is NOT false.
+            </summary>
+            <param name="item">Item to be checked.</param>
+            <returns>True if the value is true, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.Toggle(System.Boolean)">
+            <summary>
+            Toggles the given boolean item and returns the toggled value.
+            </summary>
+            <param name="item">Item to be toggled.</param>
+            <returns>The toggled value.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.ToInt(System.Boolean)">
+            <summary>
+            Converts the given boolean value to integer.
+            </summary>
+            <param name="item">The boolean variable.</param>
+            <returns>Returns 1 if true , 0 otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.ToLowerString(System.Boolean)">
+            <summary>
+            Returns the lower string representation of boolean.
+            </summary>
+            <param name="item">The boolean variable.</param>
+            <returns>Returns "true" or "false".</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.ToYesNo(System.Boolean)">
+            <summary>
+            Returns "Yes" or "No" based on the given boolean value.
+            </summary>
+            <param name="item">The boolean value.</param>
+            <returns>Yes if the given value is true otherwise No.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.ToString(System.Boolean,System.String,System.String)">
+            <summary>
+            Returns the trueString or falseString based on the given boolean value.
+            </summary>
+            <param name="item">The boolean value.</param>
+            <param name="trueString">Value to be returned if the condition is true.</param>
+            <param name="falseString">Value to be returned if the condition is false.</param>
+            <returns>Returns trueString if the given value is true otherwise falseString.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.BoolXtensions.BoolXtensions.ToType``1(System.Boolean,``0,``0)">
+            <summary>
+            Returns the trueValue or the falseValue based on the given boolean value.
+            </summary>
+            <param name="item">The boolean value.</param>
+            <param name="trueValue">Value to be returned if the condition is true.</param>
+            <param name="falseValue">Value to be returned if the condition is false.</param>
+            <typeparam name="T">Instance of any class.</typeparam>
+            <returns>Returns trueValue if the given value is true otherwise falseValue.</returns>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.BoolXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains set of extension methods for <see cref="T:System.Boolean"/> class.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions">
+            <summary>
+            This class contains set of extension methods for the <see cref="T:System.DateTime"/> type.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAdult(System.DateTime)">
+            <summary>
+            Checks whether the given DateTime is an Adult age according to the configuration.
+            Refer app.config file for more information.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the age is an adult age, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAtLeastOfAge(System.DateTime,System.Int32)">
+            <summary>
+            Check whether the given DateTime is older than or equal to the given age.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <param name="age">Age to be checked.</param>
+            <returns>True if the given DateTime is older than or equal to the given age, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanASecond(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a second.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a second, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanAMinute(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a minute.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a minute, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanAnHour(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than 1 hour.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than 1 hour, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanADay(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a day.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a day, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanAWeek(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a week.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a week, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanAFortnight(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a fortnight.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a fortnight, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanAMonth(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a month.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a month, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanHalfYear(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than 6 months.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than 6 months, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanAYear(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a year.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a year, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanADecade(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a decade (10 years).
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a decade, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThanACentury(System.DateTime)">
+            <summary>
+            Checks if the difference between the given DateTime and DateTime.Now is more than a century.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a century, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsOlderThan(System.DateTime,System.DateTime)">
+            <summary>
+            Checks whether the first date is older than the second date.
+            </summary>
+            <param name="firstDate">The first DateTime to be checked.</param>
+            <param name="secondDate">The second DateTime to be checked.</param>
+            <returns>True if first date is older, false otherwise.</returns>
+            <example>Returns True for (new DateTime(2012,1,1)).IsOlderThan(new DateTime(2012,6,30)).</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanASecond(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a second.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a second, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanAMinute(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a minute.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a minute, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanAnHour(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than an hour.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than an hour, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanADay(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a day.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a day, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanAWeek(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a week.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a week, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanAFortnight(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a fortnight.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a fortnight, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanAMonth(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a month.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a month, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanHalfYear(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than 6 months.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than 6 months, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanAYear(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a year.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a year, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanADecade(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a decade.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a decade, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThanACentury(System.DateTime)">
+            <summary>
+            Checks if the difference between DateTime.Now and the given DateTime is more than a century.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the difference is more than a century, false otherwise.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYoungerThan(System.DateTime,System.DateTime)">
+            <summary>
+            Checks whether the first date falls after the second date.
+            </summary>
+            <param name="firstDate">The first DateTime to be checked.</param>
+            <param name="secondDate">THe second DateTime to be checked.</param>
+            <returns>True if the first date is younger, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddASecond(System.DateTime)">
+            <summary>
+            Adds one second to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one second is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddAMinute(System.DateTime)">
+            <summary>
+            Adds one minute to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one minute is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddHalfAnHour(System.DateTime)">
+            <summary>
+            Adds 30 minutes to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after 30 minutes are added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddAnHour(System.DateTime)">
+            <summary>
+            Adds one hour to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one hour is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddADay(System.DateTime)">
+            <summary>
+            Adds one day to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one day is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddAWeek(System.DateTime)">
+            <summary>
+            Adds one week to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one week is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddAFortnight(System.DateTime)">
+            <summary>
+            Adds one fortnight to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one fortnight is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddAMonth(System.DateTime)">
+            <summary>
+            Adds one month to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one month is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddAYear(System.DateTime)">
+            <summary>
+            Adds one year to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one year is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddADecade(System.DateTime)">
+            <summary>
+            Adds one decade to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one decade is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddWeeks(System.DateTime,System.Int32)">
+            <summary>
+            Adds the given weeks to the given DateTime.
+            </summary>
+            <param name="date">The DateTime to which the weeks have to be added.</param>
+            <param name="weeks">The number of weeks to be added.</param>
+            <returns>The DateTime after the weeks are added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddFortnights(System.DateTime,System.Int32)">
+            <summary>
+            Adds the given fortnights to the given DateTime.
+            </summary>
+            <param name="date">The DateTime to which the fortnights have to be added.</param>
+            <param name="fortnights">The number of fortnights to be added.</param>
+            <returns>The DateTime after the fortnights are added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddACentury(System.DateTime)">
+            <summary>
+            Adds one century to the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one century is added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddDecades(System.DateTime,System.Int32)">
+            <summary>
+            Adds the given decades to the given DateTime.
+            </summary>
+            <param name="date">The DateTime to which the decades have to be added.</param>
+            <param name="decades">The number of decades to be added.</param>
+            <returns>The DateTime after the decades are added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.AddCenturies(System.DateTime,System.Int32)">
+            <summary>
+            Adds the given centuries to the given DateTime.
+            </summary>
+            <param name="date">The DateTime to which the centuries have to be added.</param>
+            <param name="centuries">The number of centuries to be added.</param>
+            <returns>The DateTime after the centuries are added.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractASecond(System.DateTime)">
+            <summary>
+            Subtracts one second from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one second is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractAMinute(System.DateTime)">
+            <summary>
+            Subtracts one minute from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one minute is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractHalfAnHour(System.DateTime)">
+            <summary>
+            Subtracts 30 minutes from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after 30 minutes are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractAnHour(System.DateTime)">
+            <summary>
+            Subtracts one hour from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one hour is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractADay(System.DateTime)">
+            <summary>
+            Subtracts one day from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one day is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractAWeek(System.DateTime)">
+            <summary>
+            Subtracts one week from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one week is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractAFortnight(System.DateTime)">
+            <summary>
+            Subtracts one fortnight from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one fortnight is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractAMonth(System.DateTime)">
+            <summary>
+            Subtracts one month from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one month is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractAYear(System.DateTime)">
+            <summary>
+            Subtracts one year from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one year is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractADecade(System.DateTime)">
+            <summary>
+            Subtracts one decade from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one decade is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractACentury(System.DateTime)">
+            <summary>
+            Subtracts one century from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The DateTime after one century is subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractTicks(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given ticks from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="ticks">Number of ticks to be subtracted.</param>
+            <returns>The DateTime after the given ticks are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractMilliSeconds(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given milliseconds from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="milliSeconds">Number of milliseconds to be subtracted.</param>
+            <returns>The DateTime after the given milliseconds are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractSeconds(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given seconds from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="seconds">Number of seconds to be subtracted.</param>
+            <returns>The DateTime after the given seconds are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractMinutes(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given minutes from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="minutes">Number of minutes to be subtracted.</param>
+            <returns>The DateTime after the given minutes are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractHours(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given hours from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="hours">Number of hours to be subtracted.</param>
+            <returns>The DateTime after the given hours are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractDays(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given days from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="days">Number of days to be subtracted.</param>
+            <returns>The DateTime after the given days are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractWeeks(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given weeks from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="weeks">Number of weeks to be subtracted.</param>
+            <returns>The DateTime after the given weeks are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractFortnights(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given fortnights from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="fortnights">Number of fortnights to be subtracted.</param>
+            <returns>The DateTime after the given fortnights are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractMonths(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given months from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="months">Number of months to be subtracted.</param>
+            <returns>The DateTime after the given months are subtracted.</returns>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractYears(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given years from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="years">Number of years to be subtracted.</param>
+            <returns>The DateTime after the given years are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractDecades(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given decades from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="decades">Number of decades to be subtracted.</param>
+            <returns>The DateTime after the given decades are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.SubtractCenturies(System.DateTime,System.Int32)">
+            <summary>
+            Subtracts given centuries from the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="centuries">Number of centuries to be subtracted.</param>
+            <returns>The DateTime after the given centuries are subtracted.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetTicksSince(System.DateTime)">
+            <summary>
+            Gets the ticks between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of ticks.</returns>              
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetMilliSecondsSince(System.DateTime)">
+            <summary>
+            Gets the milliseconds between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of milliseconds.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetSecondsSince(System.DateTime)">
+            <summary>
+            Gets the seconds between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of seconds.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetMinutesSince(System.DateTime)">
+            <summary>
+            Gets the minutes between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of minutes.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetHoursSince(System.DateTime)">
+            <summary>
+            Gets the hours between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of hours.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetDaysSince(System.DateTime)">
+            <summary>
+            Gets the days between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of days.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetWeeksSince(System.DateTime)">
+            <summary>
+            Gets the weeks between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of weeks.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFortnightsSince(System.DateTime)">
+            <summary>
+            Gets the fortnights between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of fortnights.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetMonthsSince(System.DateTime)">
+            <summary>
+            Gets the months between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of months.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetYearsSince(System.DateTime)">
+            <summary>
+            Gets the years between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of years.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetDecadesSince(System.DateTime)">
+            <summary>
+            Gets the decades between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of decades.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetCenturiesSince(System.DateTime)">
+            <summary>
+            Gets the centuries between the given time and DateTime.Now.
+            </summary>
+            <param name="time">The given DateTime.</param>
+            <returns>Number of centuries.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAMonday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a Monday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the day is Monday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsATuesday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a Tuesday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the day is Tuesday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAWednesday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a Wednesday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the day is Wednesday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAThursday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a Thursday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the day is Thursday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAFriday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a Friday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the day is Friday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsASaturday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a Saturday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the day is Saturday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsASunday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a Sunday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the day is Sunday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAWorkingDay(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a working day according to the configuration.
+            Please refer the app.config for more information. 
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the given day is a working day, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsAHoliday(System.DateTime)">
+            <summary>
+            Checks whether the day of given DateTime is a holiday according to the configuration.
+            Please refer the app.config for more information. 
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the given day is a holiday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsToday(System.DateTime)">
+            <summary>
+            Checks whether the given day is Today.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the given day is Today, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsTomorrow(System.DateTime)">
+            <summary>
+            Checks whether the given day is Tomorrow.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the given day is Tomorrow, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsYesterday(System.DateTime)">
+            <summary>
+            Checks whether the given day is Yesterday.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the given day is yesterday, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInJanuary(System.DateTime)">
+            <summary>
+            Checks whether the month of the given day is January.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is January, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInFebruary(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is February.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is February, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInMarch(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is March.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is March, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInApril(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is April.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is April, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInMay(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is May.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is May, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInJune(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is June.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is June, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInJuly(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is July.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is July, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInAugust(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is August.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is August, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInSeptember(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is September.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is January, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInOctober(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is October.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is October, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInNovember(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is November.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is November, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.IsInDecember(System.DateTime)">
+            <summary>
+            Checks whether the month of the given DateTime is December.
+            </summary>
+            <param name="date">DateTime to be checked.</param>
+            <returns>True if the month of given day is December, False otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.#cctor">
+            <summary>
+            Static constructor of the class. Used to instantiate the private members of this class.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstDayOccurrenceOfTheMonth(System.DateTime,System.DayOfWeek)">
+            <summary>
+            Gets the first occurrence of the given day of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="day">The day to be found.</param>
+            <returns>DateTime instance of the first occurrence of the given day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstMondayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first Monday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Monday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstTuesdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first Tuesday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Tuesday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstWednesdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first Wednesday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Wednesday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstThursdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first Thursday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Thursday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstFridayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first Friday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Friday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstSaturdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first Saturday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Saturday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstSundayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first Sunday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Sunday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstHolidayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first configured Holiday of the month of the given DateTime. Refer app.config
+            for holiday configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Holiday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstWorkingDayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first configured working day of the month of the given DateTime. Refer app.config
+            for working days configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first working day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstDayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the first day of the month of the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first day of the month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastDayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last day of the month of the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last day of the month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastDayOccurrenceOfTheMonth(System.DateTime,System.DayOfWeek)">
+            <summary>
+            Gets the last occurrence of the given day of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="day">The day to be found.</param>
+            <returns>DateTime instance of the last occurrence of the given day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastMondayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last Monday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Monday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastTuesdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last Tuesday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Tuesday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastWednesdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last Wednesday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Wednesday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastThursdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last Thursday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Thursday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastFridayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last Friday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Friday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastSaturdayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last Saturday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Saturday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastSundayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last Sunday of the month in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Sunday of the given month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastHolidayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last configured holiday of the month of the given DateTime. Refer app.config file
+            for holidays configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last holiday of the month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastWorkingDayOfTheMonth(System.DateTime)">
+            <summary>
+            Gets the last configured working day of the month of the given DateTime. Refer app.config file
+            for working days configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last working day of the month.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstDayOccurrenceOfTheYear(System.DateTime,System.DayOfWeek)">
+            <summary>
+            Gets the first occurrence of the given day of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="day">The day to be found.</param>
+            <returns>DateTime instance of the first occurrence of the given day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstMondayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first Monday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Monday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstTuesdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first Tuesday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Tuesday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstWednesdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first Wednesday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Wednesday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstThursdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first Thursday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Thursday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstFridayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first Friday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Friday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstSaturdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first Saturday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Saturday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstSundayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first Sunday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Sunday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstHolidayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first configured Holiday of the year of the given DateTime. Refer app.config
+            for holiday configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first Holiday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstWorkingDayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first configured working day of the year of the given DateTime. Refer app.config
+            for working days configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first working day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetFirstDayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the first day of the year of the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the first day of the year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastDayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last day of the year of the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last day of the year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastDayOccurrenceOfTheYear(System.DateTime,System.DayOfWeek)">
+            <summary>
+            Gets the last occurrence of the given day of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="day">The day to be found.</param>
+            <returns>DateTime instance of the last occurrence of the given day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastMondayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last Monday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Monday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastTuesdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last Tuesday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Tuesday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastWednesdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last Wednesday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Wednesday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastThursdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last Thursday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Thursday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastFridayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last Friday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Friday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastSaturdayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last Saturday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Saturday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastSundayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last Sunday of the year in the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last Sunday of the given year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastHolidayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last configured holiday of the year of the given DateTime. Refer app.config file
+            for holidays configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last holiday of the year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetLastWorkingDayOfTheYear(System.DateTime)">
+            <summary>
+            Gets the last configured working day of the year of the given DateTime. Refer app.config file
+            for working days configuration.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>DateTime instance of the last working day of the year.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextMonday(System.DateTime)">
+            <summary>
+            Gets the next Monday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of next Monday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextTuesday(System.DateTime)">
+            <summary>
+            Gets the next Tuesday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of next Tuesday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextWednesday(System.DateTime)">
+            <summary>
+            Gets the next Wednesday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of next Wednesday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextThursday(System.DateTime)">
+            <summary>
+            Gets the next Thursday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of next Thursday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextFriday(System.DateTime)">
+            <summary>
+            Gets the next Friday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of next Friday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextSaturday(System.DateTime)">
+            <summary>
+            Gets the next Saturday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of next Saturday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextSunday(System.DateTime)">
+            <summary>
+            Gets the next Sunday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of next Sunday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextDay(System.DateTime,System.DayOfWeek)">
+            <summary>
+            Gets the next given day from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <param name="day">The day to be found out.</param>
+            <returns>DateTime instance of the next given day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextWorkingDay(System.DateTime)">
+            <summary>
+            Gets the next working day from the given DateTime. This is according to the holidays configured in the 
+            app.config file.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of the next working day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetNextHoliday(System.DateTime)">
+            <summary>
+            Gets the next holiday from the given DateTime. This is according to the holidays configured in the 
+            app.config file.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of the next holiday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousMonday(System.DateTime)">
+            <summary>
+            Gets the previous Monday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of previous Monday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousTuesday(System.DateTime)">
+            <summary>
+            Gets the previous Tuesday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of previous Tuesday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousWednesday(System.DateTime)">
+            <summary>
+            Gets the previous Wednesday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of previous Wednesday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousThursday(System.DateTime)">
+            <summary>
+            Gets the previous Thursday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of previous Thursday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousFriday(System.DateTime)">
+            <summary>
+            Gets the previous Friday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of previous Friday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousSaturday(System.DateTime)">
+            <summary>
+            Gets the previous Saturday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of previous Saturday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousSunday(System.DateTime)">
+            <summary>
+            Gets the previous Sunday from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of previous Sunday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousDay(System.DateTime,System.DayOfWeek)">
+            <summary>
+            Gets the previous given day from the given DateTime.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <param name="day">The day to be found out.</param>
+            <returns>DateTime instance of the previous given day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousWorkingDay(System.DateTime)">
+            <summary>
+            Gets the previous working day from the given DateTime. This is according to the holidays configured in the 
+            app.config file.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of the previous working day.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetPreviousHoliday(System.DateTime)">
+            <summary>
+            Gets the previous holiday from the given DateTime. This is according to the holidays configured in the 
+            app.config file.
+            </summary>
+            <param name="date">The starting DateTime.</param>
+            <returns>DateTime instance of the previous holiday.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetDayString(System.DateTime)">
+            <summary>
+            Gets the day string of the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation of day.</returns>
+            <example>Returns "Sunday" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.GetMonthString(System.DateTime)">
+            <summary>
+            Gets the month string of the given DateTime.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation of month.</returns>
+            <example>Returns "January" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYySlash(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "dd/MM/yy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01/01/12" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYyDot(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "dd.MM.yy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01.01.12" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYyHyphen(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "dd-MM-yy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01-01-12" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYyWithSep(System.DateTime,System.String)">
+            <summary>
+            Formats the given DateTime to "ddMMyy" by applying the given separator.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="separator">The given separator.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01,01,12" for the date 1.1.2012 and separator ,.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYyyySlash(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "dd/MM/yyyy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01/01/2012" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYyyyDot(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "dd.MM.yyyy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01.01.2012" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYyyyHyphen(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "dd-MM-yyyy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01-01-2012" for the date 1.1.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToDdMmYyyyWithSep(System.DateTime,System.String)">
+            <summary>
+            Formats the given DateTime to "ddMMyyyy" by applying the given separator.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="separator">The given separator.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "01,01,2012" for the given DateTime 1.1.2012 and separator ,.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYySlash(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "MM/dd/yy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12/01/12" for the date 1.12.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYyDot(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "MM.dd.yy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12.01.12" for the date 1.12.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYyHyphen(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "MM-dd-yy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12-01-12" for the date 1.12.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYyWithSep(System.DateTime,System.String)">
+            <summary>
+            Formats the given DateTime to "MMddyy" by applying the given separator.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="separator">The given separator.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12,01,12" for the given DateTime1.12.2012 and separator ,.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYyyySlash(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "MM/dd/yyyy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12/01/2012" for the date 1.12.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYyyyDot(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "MM.dd.yyyy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12.01.2012" for the date 1.12.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYyyyHyphen(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "MM-dd-yyyy".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12-01-2012" for the date 1.12.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToMmDdYyyyWithSep(System.DateTime,System.String)">
+            <summary>
+            Formats the given DateTime to "MMddyyyy" by applying the given separator.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="separator">The given separator.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12,01,2012" for the given DateTime1.12.2012 and separator ,.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyMmDdSlash(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "yy/MM/dd".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12/11/30" for the date 30.11.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyMmDdDot(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "yy.MM.dd".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12.11.30" for the date 30.11.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyMmDdHyphen(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "yy-MM-dd".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12-11-30" for the date 30.11.2012.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyMmDdWithSep(System.DateTime,System.String)">
+            <summary>
+            Formats the given DateTime to "yyMMdd" by applying the given separator.
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="separator">The given separator.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "12,11,30" for the given DateTime30.11.2012 and separator ,.</example>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyyyMmDdSlash(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "yyyy/MM/dd".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "2012/11/30" for the date 30.11.2012.</example>          
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyyyMmDdDot(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "yyyy.MM.dd".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "2012.11.30" for the date 30.11.2012.</example>           
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyyyMmDdHyphen(System.DateTime)">
+            <summary>
+            Formats the given DateTime to "yyyy-MM-dd".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "2012-11-30" for the date 30.11.2012.</example>           
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DateTimeXtensions.DateTimeXtensions.ToYyyyMmDdWithSep(System.DateTime,System.String)">
+            <summary>
+            Formats the given DateTime to "yyyyMMdd".
+            </summary>
+            <param name="date">The given DateTime.</param>
+            <param name="separator">The given separator.</param>
+            <returns>The string representation according to the format.</returns>
+            <example>Returns "2012,11,30" for the given DateTime30.11.2012 and separator ,.</example>           
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.DateTimeXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains set of extension methods for <see cref="T:System.DateTime"/> class.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.DictionaryXtensions.DictionaryXtensions">
+            <summary>
+            This class contains a set of extension methods for <see cref="T:System.Collections.Generic.Dictionary`2"></see>.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DictionaryXtensions.DictionaryXtensions.AddIfNotExists``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)">
+            <summary>
+            Method that adds the given key and value to the given dictionary only if the key is NOT present in the dictionary.
+            This will be useful to avoid repetitive "if(!containskey()) then add" pattern of coding.
+            </summary>
+            <param name="dict">The given dictionary.</param>
+            <param name="key">The given key.</param>
+            <param name="value">The given value.</param>
+            <returns>True if added successfully, false otherwise.</returns>
+            <typeparam name="TKey">Refers the TKey type.</typeparam>
+            <typeparam name="TValue">Refers the TValue type.</typeparam>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DictionaryXtensions.DictionaryXtensions.AddOrReplace``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)">
+            <summary>
+            Method that adds the given key and value to the given dictionary if the key is NOT present in the dictionary.
+            If present, the value will be replaced with the new value.
+            </summary>
+            <param name="dict">The given dictionary.</param>
+            <param name="key">The given key.</param>
+            <param name="value">The given value.</param>
+            <typeparam name="TKey">Refers the Key type.</typeparam>
+            <typeparam name="TValue">Refers the Value type.</typeparam>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.DictionaryXtensions.DictionaryXtensions.AddRange``2(System.Collections.Generic.Dictionary{``0,``1},System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{``0,``1}})">
+            <summary>
+            Method that adds the list of given KeyValuePair objects to the given dictionary. If a key is already present in the dictionary,
+            then an error will be thrown.
+            </summary>
+            <param name="dict">The given dictionary.</param>
+            <param name="kvpList">The list of KeyValuePair objects.</param>
+            <typeparam name="TKey">Refers the TKey type.</typeparam>
+            <typeparam name="TValue">Refers the TValue type.</typeparam>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.DictionaryXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains set of extension methods for <see cref="T:System.Collections.Generic.Dictionary`2"></see> class.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.GenericXtensions.GenericXtensions">
+            <summary>
+            This class contains set of generic extension methods.
+            </summary>    
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.GenericXtensions.GenericXtensions.IsIn``1(``0,``0[])">
+            <summary>
+            Checks whether the given instance tobject exists in the list of values.
+            </summary>
+            <param name="tobject">The given object.</param>
+            <param name="values">The list of values.</param>
+            <typeparam name="T">Refers the type of the object to be checked and values.</typeparam>
+            <returns>True if tobject is present in values, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.GenericXtensions.GenericXtensions.IsNotIn``1(``0,``0[])">
+            <summary>
+            Checks whether the given instance tobject does NOT exist in the list of values.
+            </summary>
+            <param name="tobject">The given object.</param>
+            <param name="values">The list of values.</param>
+            <typeparam name="T">Refers the type of the object to be checked and values.</typeparam>
+            <returns>True if tobject is NOT present in values, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.GenericXtensions.GenericXtensions.AsList``1(``0)">
+            <summary>
+            Wraps the given object into a List{T} and returns the list.
+            </summary>
+            <param name="tobject">The object to be wrapped.</param>
+            <typeparam name="T">Refers the object to be returned as List{T}.</typeparam>
+            <returns>Returns List{T}.</returns>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.GenericXtensions.NamespaceDoc">
+            <summary>
+            This namespace contains a set of generic extension methods. 
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.ListXtensions.ListXtensions">
+            <summary>
+            This class contains a set of extension methods for <see cref="T:System.Collections.Generic.List`1">.</see>
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.ListXtensions.ListXtensions.AddRange``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0}[])">
+            <summary>
+            Method that adds multiple lists to a single list.
+            </summary>
+            <param name="list">The master list.</param>
+            <param name="lists">The list of child lists.</param>
+            <typeparam name="T">Refers the type in the List.</typeparam>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.ListXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains set of extension methods for <see cref="T:System.Collections.Generic.List`1"></see> class.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.IntXtensions.IntXtensions">
+            <summary>
+            This class contains extension methods for <see cref="T:System.Int32"/>.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.IntXtensions.IntXtensions.Negate(System.Int32)">
+            <summary>
+            Negates (* -1) the given integer.
+            </summary>
+            <param name="number">The given integer.</param>
+            <returns>The negated integer.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.IntXtensions.IntXtensions.AbsoluteValue(System.Int32)">
+            <summary>
+            Strips out the sign and returns the absolute value of given integer.
+            </summary>
+            <param name="number">The given integer.</param>
+            <returns>The absolute value of given integer.</returns>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.IntXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains extension methods for <see cref="T:System.Int32"/> class.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.LongXtensions.LongXtensions">
+            <summary>
+            This class contains extension methods for <see cref="T:System.Int64"/>.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.LongXtensions.LongXtensions.Negate(System.Int64)">
+            <summary>
+            Negates (* -1) the given long number.
+            </summary>
+            <param name="number">The given long number.</param>
+            <returns>The negated long number.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.LongXtensions.LongXtensions.AbsoluteValue(System.Int64)">
+            <summary>
+            Strips out the sign and returns the absolute value of given long number.
+            </summary>
+            <param name="number">The given long number.</param>
+            <returns>The absolute value of given long number.</returns>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.LongXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains extension methods for <see cref="T:System.Int64"/> class.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.ObjectXtensions.ObjectXtensions">
+            <summary>
+            This class contains set of extension methods for <see cref="T:System.Object"></see>.
+            </summary>    
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.ObjectXtensions.ObjectXtensions.IsA``1(System.Object)">
+            <summary>
+            Checks whether the given object is of {T}.
+            </summary>
+            <param name="obj">The object to be checked.</param>
+            <typeparam name="T">Refers the target data type.</typeparam>
+            <returns>True if the given object is of type T, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.ObjectXtensions.ObjectXtensions.IsNotA``1(System.Object)">
+            <summary>
+            Checks whether the given object is NOT of type T.
+            </summary>
+            <param name="obj">The object to be checked.</param>
+            <typeparam name="T">Refers the target data type.</typeparam>
+            <returns>True if the given object is NOT of type T, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.ObjectXtensions.ObjectXtensions.As``1(System.Object)">
+            <summary>
+            Tries to cast the given object to type T.
+            </summary>
+            <param name="obj">The object to be casted.</param>
+            <typeparam name="T">Refers target data type.</typeparam>
+            <returns>Returns the casted objects. Null if casting fails.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.ObjectXtensions.ObjectXtensions.IsNull(System.Object)">
+            <summary>
+            Checks whether the given object is Null.
+            </summary>
+            <param name="obj">The object to be checked.</param>
+            <returns>True if the object is Null, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.ObjectXtensions.ObjectXtensions.IsNotNull(System.Object)">
+            <summary>
+            Checks whether the given object is NOT Null.
+            </summary>
+            <param name="obj">The object to be checked.</param>
+            <returns>True if the object is NOT Null, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.ObjectXtensions.ObjectXtensions.HasValue(System.Object)">
+            <summary>
+            Checks whether the given object has some value. Similar to IsNotNull().
+            </summary>
+            <param name="obj">The object to be checked.</param>
+            <returns>True if the object is NOT Null, false otherwise.</returns>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.ObjectXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains extension methods for <see cref="T:System.Object"/>.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions">
+            <summary>
+            This class contains extension methods for <see cref="T:System.String"/>.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.InvertCase(System.String)">
+            <summary>
+            Inverts the case of each character in the given string and returns the new string.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>The converted string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.IsNullOrEmptyAfterTrimmed(System.String)">
+            <summary>
+            Checks whether the given string is null, else if empty after trimmed.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>True if string is Null or Empty, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.ToCharList(System.String)">
+            <summary>
+            Converts the given string to <see cref="T:System.Collections.Generic.List`1"/>.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>Returns a list of char.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.SubstringFromXToY(System.String,System.Int32,System.Int32)">
+            <summary>
+            Extracts the substring starting from 'start' position to 'end' position.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="start">The start position.</param>
+            <param name="end">The end position.</param>
+            <returns>The substring.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.RemoveChar(System.String,System.Char)">
+            <summary>
+            Removes the given character from the given string and returns the new string.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="c">The character to be removed.</param>
+            <returns>The new string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.GetWords(System.String)">
+            <summary>
+            Returns the number of words in the given string.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>The word count.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.Reverse(System.String)">
+            <summary>
+            Returns the reversed string.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>The reversed string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.IsPalindrome(System.String)">
+            <summary>
+            Checks whether the given string is a palindrome.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>True if the given string is palindrome, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.IsNotPalindrome(System.String)">
+            <summary>
+            Checks whether the given string is NOT a palindrome.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>True if the given string is NOT palindrome, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.IsAValidEmail(System.String)">
+            <summary>
+            Checks whether the given string is a valid email using regular expressions.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>True if it is a valid email, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.IsAValidIPAddress(System.String)">
+            <summary>
+            Checks whether the given string is a valid IP address using regular expressions.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>True if it is a valid IP address, false otherwise.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendSep(System.String,System.String)">
+            <summary>
+            Appends the given separator to the given string.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="sep">The separator to be appended.</param>
+            <returns>The appended string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendComma(System.String)">
+            <summary>
+            Appends the a comma to the given string.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>The appended string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendSpace(System.String)">
+            <summary>
+            Appends the a space to the given string.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>The appended string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendHyphen(System.String)">
+            <summary>
+            Appends the a hyphen to the given string.
+            </summary>
+            <param name="s">The given string.</param>
+            <returns>The appended string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendSep(System.String,System.Char)">
+            <summary>
+            Appends the given character to the given string and returns the new string.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="sep">The character to be appended.</param>
+            <returns>The appended string.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendWithSep(System.String,System.String,System.String)">
+            <summary>
+            Returns this string + sep + newString.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="newString">The string to be concatenated.</param>
+            <param name="sep">The separator to be introduced in between these two strings.</param>
+            <returns>The appended string.</returns>
+            <remarks>This may give poor performance for large number of strings used in loop. Use <see cref="T:System.Text.StringBuilder"/> instead.</remarks>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendWithSep(System.String,System.String,System.Char)">
+            <summary>
+            Returns this string + sep + newString.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="newString">The string to be concatenated.</param>
+            <param name="sep">The separator to be introduced in between these two strings.</param>
+            <returns>The appended string.</returns>
+            <remarks>This may give poor performance for large number of strings used in loop. Use <see cref="T:System.Text.StringBuilder"/> instead.</remarks>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendWithComma(System.String,System.String)">
+            <summary>
+            Returns this string + "," + newString.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="newString">The string to be concatenated.</param>
+            <returns>The appended string.</returns>
+            <remarks>This may give poor performance for large number of strings used in loop. Use <see cref="T:System.Text.StringBuilder"/> instead.</remarks>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendWithHyphen(System.String,System.String)">
+            <summary>
+            Returns this string + "-" + newString.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="newString">The string to be concatenated.</param>
+            <returns>The appended string.</returns>
+            <remarks>This may give poor performance for large number of strings used in loop. Use <see cref="T:System.Text.StringBuilder"/> instead.</remarks>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.StringXtensions.StringXtensions.AppendWithSpace(System.String,System.String)">
+            <summary>
+            Returns this string + " " + newString.
+            </summary>
+            <param name="s">The given string.</param>
+            <param name="newString">The string to be concatenated.</param>
+            <returns>The appended string.</returns>
+            <remarks>This may give poor performance for large number of strings used in loop. Use <see cref="T:System.Text.StringBuilder"/> instead.</remarks>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.StringXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains extension methods for <see cref="T:System.String"/> class.
+            </summary>
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.TimeSpanXtensions.TimeSpanXtensions">
+            <summary>
+            This class contains extension methods for <see cref="T:System.TimeSpan"/>.
+            </summary>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.TimeSpanXtensions.TimeSpanXtensions.GetWeeks(System.TimeSpan)">
+            <summary>
+            Gets the number of weeks in the given time span.
+            </summary>
+            <param name="span">The given time span.</param>
+            <returns>The number of weeks.</returns>
+        </member>
+        <member name="M:Nallenthal.Common.XtensionSuite.TimeSpanXtensions.TimeSpanXtensions.GetFortnights(System.TimeSpan)">
+            <summary>
+            Gets the number of fortnights in the given time span.
+            </summary>
+            <param name="span">The given time span.</param>
+            <returns>The number of fortnights.</returns>          
+        </member>
+        <member name="T:Nallenthal.Common.XtensionSuite.TimeSpanXtensions.NamespaceDoc">
+            <summary>
+            This Namespace contains extension methods for <see cref="T:System.TimeSpan"/> class.
+            </summary>
+        </member>
+    </members>
+</doc>
